@@ -1,0 +1,283 @@
+/* w1300 */
+.header{
+    height: 200px;
+}
+
+.header__top{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__top-container{
+    display: flex;
+    width: 970px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__top-curren-date{
+    padding-left: 80px;
+}
+.header__top-curren-date span{
+    font-size: 1.2rem;
+    color: #666;
+    
+}
+.header__top-action{
+    display: flex;
+    width: 300px;
+    align-items: center;
+}
+.header__top-action-search .bx.bx-search{
+    font-size: 2.4rem;
+    padding-right: 20px;
+}
+.header__top-hotline{
+    width: 200px;
+    background-color: #ed1c24;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+}
+.header__top-hotline-link{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    
+}
+
+
+
+/* Header Middle */
+
+.header__middle{
+    height: 120px;
+}
+.header__middle-background{
+    
+    background-repeat: no-repeat;
+    background-image: url(https://static.mediacdn.vn/covid19.gov.vn/image/bg-header.png);
+    padding-left: 220px;
+}
+
+.header__middle-flex{
+    display: flex;
+    align-items: center;
+}
+.header__middle-flex h1{
+    margin-right: 20px;
+    z-index: 3;
+    
+}
+.header__middle-title{
+    line-height: 2.4rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* Header bot */
+
+.header__bot{
+    background-color: #2e3192;
+    height: 25px;
+}
+
+.header__bot-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__bot-item{
+    font-size: 1.4rem;
+}
+.header__bot-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.app__container{
+
+}
+
+.home__statical{
+
+}
+.home__statical-header{
+
+}
+.home__statical-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.home__statical-item{
+
+}
+
+.home__statical-item span{
+    font-size: 2rem;
+    color: #666;
+}
+.home__statical-link{
+    text-decoration: none;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 20px;
+    color: #666666;
+}
+.home__statical-link-selected{
+    color: #2E3192;
+}
+
+
+
+/* home statical static */
+
+.home__statical-static{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.home__statical-static-update{
+    
+    width: 33%;
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    /* margin: 0 10px; */
+}
+.home__statical-static-update:first-child{
+    background-color: rgba(237, 28, 36, 0.1);
+
+}
+.home__statical-static-update:first-child .value{
+    color: #ED1C24;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.home__statical-static-update:nth-child(2){
+    background-color: rgba(40, 167, 69, 0.1);
+    padding: 10px 0;
+    margin: 0 20px;
+}
+
+.home__statical-static-update:last-child{
+    background-color: #F0EFF4;
+    padding: 10px 0;
+}
+.hiden{
+    display: none;
+}
+.home__statical-static-update:nth-child(2) .value{
+    color: #28A745;
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+.home__statical-static-update:last-child .value{
+    color: #333333;
+    font-weight: 800;
+    font-size: 1.8rem;
+
+}
+.home__statical-static-update .text{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.home__statical-static-update:first-child .infor{
+    font-size: 1rem;
+
+}
+.home__statical-static-update:first-child .infor span{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+/* home focus */
+
+.home__focus{
+    margin-top: 25px;
+    
+}
+.home__focus-flex{
+    width: 100%;
+    display: flex;
+}
+.home__focus-news{
+    width: 60%;
+}
+.home__focus-img{
+
+}
+.home__focus-img img{
+    width: 100%;
+    border-radius: 4px;
+
+}
+.home__focus-title{
+    font-size: 2.4rem;
+}
+.home__focus-sapo{
+    font-size: 1.4rem;
+}
+.home__focus-news-list{
+
+}
+
+
+/* home news */
+.home__section-new{
+    height: 600px;
+    padding-top: 50px;
+}
+
+.home__section-new-flex{
+    display: flex;
+}
+
+.home__section-new-box-category{
+    width: 50%;
+}
+.home__section-new-box-category h2 a{
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: #2e3192;
+}
+.home__section-new-box-list{
+
+}
+.home__section-new-box-item{
+    display: flex;
+    
+}
+.home__section-new-box-item a img{
+    padding-right: 15px;
+    
+}
+.home__section-new-box-item .home__section-new-box-item-content h3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    
+    font-weight: 500;
+    line-height: 130%;
+
+}
+.home__section-new-box-item .home__section-new-box-item-content span{
+    font-size: 1.4rem;
+}
