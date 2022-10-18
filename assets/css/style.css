@@ -1,6 +1,7 @@
 /* w1300 */
 .header{
     height: 200px;
+    
 }
 
 .header__top{
@@ -56,6 +57,7 @@
 
 .header__middle{
     height: 120px;
+    
 }
 .header__middle-background{
     
@@ -85,8 +87,10 @@
 /* Header bot */
 
 .header__bot{
+    display: flex;
     background-color: #2e3192;
     height: 25px;
+
 }
 
 .header__bot-list{
@@ -236,9 +240,69 @@
     font-size: 1.4rem;
 }
 .home__focus-news-list{
+    width: 40%;
+    padding-left: 20px;
+
+}
+.home__focus-news-list h2 a{
+    text-decoration: none;
 
 }
 
+/* home__focus-wrapper */
+
+.home__focus-wrapper{
+   
+
+}
+.home__focus-slide-container{
+    background-color: #f0f8ff;
+}
+.home__focus-slide-swipe{
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: #f0f8ff;
+    z-index: 3;
+
+}
+
+
+.home__focus-slide-new{
+    margin-bottom: 40px;
+
+}
+.home__focus-slide-new .time{
+    color: #bb1119;
+    font-weight: 500;
+    font-size: 1.4rem;
+    background: #f0f8ff;
+    padding: 0 20px;
+
+}
+.home__focus-slide-new .box-focus-content{
+    color: #333;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0 10px;
+
+
+}
+.home__focus-slide-new .box-focus-sapo{
+    font-size: 1.4rem;
+
+}
+.home__focus-news-list-more{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    padding-top: 10px;
+    font-weight: 500;
+
+
+}
 
 /* home news */
 .home__section-new{
@@ -280,4 +344,66 @@
 }
 .home__section-new-box-item .home__section-new-box-item-content span{
     font-size: 1.4rem;
+}
+
+
+/* home category */
+
+.home__category{
+    
+}
+.home__category-flex{
+    display: flex;
+}
+.home_category-title{
+    margin-bottom: 10px;
+
+}
+.home_category-title a{
+    text-decoration: none;
+    font-size: 2.2rem;
+    
+
+}
+.home_category-title a img{
+    
+}
+.home__category-big{
+    width: 50%;
+}
+
+.home__category-big-link{
+
+}
+.home__category-big-link a img{
+    width: 95%;
+}
+.home__category-link-content a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #333;
+
+}
+.home__category-link-content{
+
+}
+.home__category-link-sapo{
+
+}
+
+.home__category-sub{
+    width: 50%;
+}
+.home__category-sub-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.home__category-sub-item-link{
+
+}
+.home__category-sub-item-title{
+
 }

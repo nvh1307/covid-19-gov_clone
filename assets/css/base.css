@@ -11,10 +11,12 @@ html{
     font-size: 62.5%;
 
 }
-
+body{
+    position: relative;
+}
 .container{
-    padding-left: 220px;
-    padding-right: 220px;
+    padding-left: 150px;
+    padding-right: 150px;
     
     
 }
