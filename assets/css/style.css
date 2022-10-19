@@ -30,13 +30,42 @@ padding-top: 4px;
 }
 .header__top-action{
     display: flex;
-    width: 300px;
-    a
+    width: 500px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.hover-search{
+    border-radius: 40px;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgba(190, 177, 177, 0.4);
+    display: none;
+    
+}
+.header__top-action-search{
+    position: relative;
 }
 .header__top-action-search .bx.bx-search{
     font-size: 2.4rem;
     padding-right: 20px;
+    cursor: pointer;
+    z-index: 50;
 }
+.header__top-search-bar{
+    
+    position: absolute;
+    top: -2px;
+    left: -140px;
+    width: 140px;
+}
+.header__top-action-search:hover .header__top-search-bar .hover-search{
+    
+    color: #28A745;
+    display: block;
+}
+
 .header__top-hotline{
     width: 200px;
     background-color: #ed1c24;
@@ -90,12 +119,22 @@ padding-top: 4px;
 
 /* Header bot */
 
-.header__bot{
-    display: flex;
+#navbar-fixed{
+    
     background-color: #2e3192;
     height: 36px;
+   
+    display: flex;
+    
 
 }
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
 
 .header__bot-list{
     list-style: none;
@@ -244,10 +283,11 @@ padding-top: 4px;
 }
 .home__focus-title{
     font-size: 2.4rem;
+    margin-bottom: 10px;
 }
 .home__focus-sapo{
     font-size: 1.4rem;
-
+    line-height: 2rem;
 }
 .home__focus-sapo p{
     
@@ -365,8 +405,18 @@ padding-top: 4px;
     line-height: 130%;
 
 }
+.home__section-new-box-item-content{
+    padding-right: 20px;
+}
+
+.home__section-content-title{
+    margin-bottom: 10px;
+    
+}
 .home__section-new-box-item .home__section-new-box-item-content span{
     font-size: 1.4rem;
+    line-height: 2rem;
+    
 }
 
 
@@ -569,4 +619,32 @@ footer{
 }
 .footer-right-logo{
     padding-top: 20px;
+}
+
+
+/* go to top */
+
+.go-to-top{
+    
+    color: #333;
+    text-decoration: none;
+    z-index: 9999;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+
+}
+.go-to-top i{
+    font-size: 1.6rem;
+}
+.go-to-top span{
+    font-size: 1.2rem;
 }
