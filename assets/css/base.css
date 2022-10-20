@@ -85,3 +85,13 @@ body{
     border-top: 1px solid rgba(0 , 0, 0, 0.1);
     border-bottom: 1px solid rgba(0 , 0, 0, 0.1);
 }
+
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+}
+.grid__full-width{
+    width: 100%;
+}
+

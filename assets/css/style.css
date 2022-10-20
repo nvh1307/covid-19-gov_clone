@@ -518,22 +518,24 @@ padding-top: 4px;
     font-size: 1.6rem;
     font-weight: 500;
 }
-
+.home__category-big-vid{
+    width: 200%;
+}
 
 /* Home list */
 
 .home__list-news-box{
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    
 }
 .home__list-news-title a{
     text-decoration: none;
     font-size: 2.2rem;
 }
 .home__list-news-item{
-    width: 240px;
-    margin: 10px 20px;
+    width: 22%;
+    margin-right: 28px;
      
 }
 
@@ -541,8 +543,8 @@ padding-top: 4px;
 
 }
 .home__list-news-item-link-img img{
-    width: 260px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
 }
 .home__list-news-item-content{
 
@@ -568,11 +570,11 @@ padding-top: 4px;
     justify-content: space-between;
 }
 .home__list-link-item{
-
+    width: 15%;
 }
 .home__list-link-item img{
-    width: 200px;
-    height: 80px;
+    width: 100%;
+    height: 100%;
 }
 
 
