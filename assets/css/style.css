@@ -15,7 +15,7 @@ padding-top: 4px;
 }
 .header__top-container{
     display: flex;
-    width: 970px;
+    width: 1080px;
     height: 100%;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@ padding-top: 4px;
 .header__top-curren-date span{
     font-size: 1.2rem;
     color: #666;
-    
+    padding-left: 50px;
 }
 .header__top-action{
     display: flex;
@@ -89,19 +89,23 @@ padding-top: 4px;
 
 .header__middle{
     height: 120px;
-    
+    background-color: #2E3192;
     
 }
 .header__middle-background{
     
     background-repeat: no-repeat;
     background-image: url(https://static.mediacdn.vn/covid19.gov.vn/image/bg-header.png);
-    padding-left: 220px;
+    
 }
 
 .header__middle-flex{
     display: flex;
     align-items: center;
+}
+.header__middle-logo{
+    position: relative;
+    top: -30px;
 }
 .header__middle-flex h1{
     margin-right: 20px;
@@ -133,6 +137,7 @@ padding-top: 4px;
     top: 0;
     left: 0;
     display: flex;
+    z-index: 9999;
 }
 
 
@@ -149,9 +154,9 @@ padding-top: 4px;
 .header__bot-link{
     text-decoration: none;
     color: white;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.4rem;
-    margin-left: 16px;
+    margin-right: 12px;
     line-height: 36px;
 }
 
@@ -160,7 +165,7 @@ padding-top: 4px;
 }
 
 .home__statical{
-
+    margin-top: 30px;
 }
 .home__statical-header{
 
@@ -181,13 +186,14 @@ padding-top: 4px;
 }
 .home__statical-link{
     text-decoration: none;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     margin: 0 20px;
-    color: #666666;
+    color: rgba(46, 49, 146, 0.6);
 }
 .home__statical-link-selected{
     color: #2E3192;
+    font-size: 2.2rem;
 }
 
 
@@ -284,6 +290,7 @@ padding-top: 4px;
 .home__focus-title{
     font-size: 2.4rem;
     margin-bottom: 10px;
+    color: #333;
 }
 .home__focus-sapo{
     font-size: 1.4rem;
@@ -324,6 +331,7 @@ padding-top: 4px;
 .home__focus-slide-new{
     margin-bottom: 20px;
     padding-top: 20px;
+    border-bottom: 1px solid rgba(114, 105, 105, 0.3)
 }
 .home__focus-slide-new .time{
     color: #bb1119;
@@ -331,6 +339,20 @@ padding-top: 4px;
     font-size: 1.4rem;
     background: #f0f8ff;
     padding: 0 60px;
+    position: relative;
+
+}
+.home__focus-slide-new .time::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #2e3192;
+    position: absolute;
+    border-radius: 50%;
+    top : 3px;
+    left: 0px;
+    z-index: 999;
+
 
 }
 .home__focus-slide-new .box-focus-content{
@@ -359,13 +381,13 @@ padding-top: 4px;
     font-size: 1.6rem;
     padding-top: 10px;
     font-weight: 500;
-
+    color: #2e3192;
 
 }
 
 /* home news */
 .home__section-new{
-    height: 570px;
+    height: 100%;
     padding-top: 10px;
 }
 
@@ -423,7 +445,7 @@ padding-top: 4px;
 /* home category */
 
 .home__category{
-    margin-bottom: 20px;
+    margin: 10px 0;
     
 }
 .home__category-flex{
@@ -452,6 +474,7 @@ padding-top: 4px;
 .home__category-big-link a img{
     width: 95%;
     border-radius: 5px;
+    
 }
 .home__category-link-content a{
     text-decoration: none;
@@ -461,11 +484,12 @@ padding-top: 4px;
 
 }
 .home__category-link-content{
-
+    padding-right: 20px;
+    margin-bottom: 20px;    
 }
 .home__category-link-sapo{
     font-size: 1.4rem;
-
+    padding-right: 10px;
 }
 
 .home__category-sub{
@@ -499,18 +523,20 @@ padding-top: 4px;
 .home__video-sub{
     
     display: flex;
-    margin-left: 50px;
+    
     flex-wrap: wrap;
 }
 
 .home__video-sub-item{
     margin: 0 10px;
     width: 45%;
+    margin-bottom: 20px;
 }
 
 .home__video-sub-item-video .video{
     border-radius: 5px;
     z-index: -1;
+    margin-bottom: 10px;
 }
 
 .home__video-sub-item-title a{
@@ -518,12 +544,20 @@ padding-top: 4px;
     color: #333;
     font-size: 1.6rem;
     font-weight: 500;
+    
 }
 .home__category-big-vid{
     width: 175%;
     z-index: -1 ;
+    
 }
-
+.home__category-big-link-vid{
+    width: 98%;
+    
+}
+.home__category-big-link-vid a video{
+    border-radius: 5px;
+}
 /* Home list */
 
 .home__list-news-box{
@@ -536,27 +570,30 @@ padding-top: 4px;
     font-size: 2.2rem;
 }
 .home__list-news-item{
-    width: 22%;
-    margin-right: 28px;
+    width: 25%;
+    margin-bottom: 20px;
      
 }
 
 .home__list-news-item-link{
-
+    width: 90%;
+    height: 150px;
+    margin-bottom: 20px;
 }
 .home__list-news-item-link-img img{
     width: 100%;
     height: 100%;
 }
 .home__list-news-item-content{
-
+    width: 90%;
 }
 .home__list-news-item-title a{
     text-decoration: none;
     font-size: 1.6rem;
     color: #333;
     font-weight: 500;
-
+    line-height: 2rem;
+    letter-spacing: 0.02rem;
 }
 
 
@@ -572,7 +609,7 @@ padding-top: 4px;
     justify-content: space-between;
 }
 .home__list-link-item{
-    width: 15%;
+    width: 18%;
 }
 .home__list-link-item img{
     width: 100%;
@@ -582,10 +619,10 @@ padding-top: 4px;
 
 
 /* footer */
-footer{
-    color: #2e3192;
+.footer{
+    background-color: #2E3192;
     width: 100%;
-    height: 50px;
+    
 }
 
 .footer__flex{
@@ -593,13 +630,17 @@ footer{
     width: 100%;
     height: 150px;
     display: flex;
-    padding: 0 180px;
+    padding: 0 0px;
     justify-content: space-between;
 }
 
 .footer-left-flex{
     display: flex;
     
+}
+.footer-left-flex-logo{
+    position: relative;
+    top: -30px;
 }
 .footer-left-flex-logo a{
 
