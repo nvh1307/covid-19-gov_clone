@@ -125,7 +125,7 @@ padding-top: 4px;
     height: 36px;
    
     display: flex;
-    
+    width: 100%;
 
 }
 .sticky{
@@ -508,8 +508,9 @@ padding-top: 4px;
     width: 45%;
 }
 
-.home__video-sub-item-video video{
+.home__video-sub-item-video .video{
     border-radius: 5px;
+    z-index: -1;
 }
 
 .home__video-sub-item-title a{
@@ -519,7 +520,8 @@ padding-top: 4px;
     font-weight: 500;
 }
 .home__category-big-vid{
-    width: 200%;
+    width: 175%;
+    z-index: -1 ;
 }
 
 /* Home list */
